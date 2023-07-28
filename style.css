@@ -123,7 +123,7 @@ footer p a:hover, footer p a:focus{
     color: #252323;
 }
 
-@media screen and (width <= 601px){
+@media screen and (max-width: 601px){
     .main{
         display: flex;
         flex-direction: column;
@@ -146,5 +146,4 @@ footer p a:hover, footer p a:focus{
         grid-template-columns: 1fr;
         grid-auto-rows: 165px
     }
-    
 }
